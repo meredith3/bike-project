@@ -1,6 +1,6 @@
 class SayController < ApplicationController
   def hello
-    @now = Time.now
+    @now = 4.days.from_now
   end
 
   def goodbye
